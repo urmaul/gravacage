@@ -14,7 +14,7 @@ class Gravacage
 	 */
 	public static function forEmail($email)
 	{
-		$obj = new __CLASS__();
+		$obj = new self();
 		$obj->hash = md5($email);
 		return $obj;
 	}
@@ -23,7 +23,7 @@ class Gravacage
 	{
 		$params = array(
 			's' => $size,
-			'd' => urlencode($this->nicolasUrl)
+			'd' => $this->nicolasUrl($size),
 		);
 		
 		return 'http://www.gravatar.com/avatar/?' . http_build_query($params);
