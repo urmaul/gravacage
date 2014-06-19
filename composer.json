@@ -1,0 +1,21 @@
+{
+    "name": "urmaul/gravacage",
+    "type": "library",
+    "description": "Gravatar class that inserts Nicolas Cage into default avatars.",
+    "keywords": ["avatar", "gravatar", "nicolas cage"],
+    "homepage": "https://github.com/urmaul/gravacage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Bogdan Kolbik"
+        }
+    ],
+    "require": {
+        "yiisoft/yii": "*"
+    },
+	"autoload": {
+        "psr-4": {
+            "urmaul\\gravacage\\": "src/"
+        }
+    }
+}
