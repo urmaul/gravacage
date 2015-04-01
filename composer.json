@@ -10,10 +10,7 @@
             "name": "Bogdan Kolbik"
         }
     ],
-    "require": {
-        "yiisoft/yii": "*"
-    },
-	"autoload": {
+    "autoload": {
         "psr-4": {
             "urmaul\\gravacage\\": "src/"
         }
