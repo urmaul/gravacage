@@ -32,7 +32,7 @@ class Gravacage
 	protected function nicolasUrl($size = 80)
 	{
         return sprintf(
-			'http://gravacage.devk.itechcraft.com/%s/%d.jpg',
+			'http://gravacage.urmaul.com/%s/%d.jpg',
 			$size >= 100 ? 600 : 100,
 			abs(crc32($this->hash)) % 952
 		);
